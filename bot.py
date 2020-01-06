@@ -36,10 +36,6 @@ def get_backups(update, context):
     """ Send a list of all backups """
     update.message.reply_text('Backup:')
 
-def start(update, context):
-    """Send a message when the command /start is issued."""
-    update.message.reply_text('Hi there!')
-
 def error(update, context):
     """Log Errors caused by Updates."""
     logging.warning('Update "%s" caused error "%s"', update, context.error)
