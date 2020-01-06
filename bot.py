@@ -11,7 +11,6 @@ import os
 logging.basicConfig(filename='/tmp/hetznerbot.log',level=logging.INFO, format='%(asctime)s %(message)s')
 hetzner_api_token = os.getenv('HETZNER_API_TOKEN', '')
 telegram_bot_token = os.getenv('TELEGRAM_BOT_TOKEN', '')
-telegram_channel_id = '-1001295203316'
 
 def start(update, context):
     """Send a message when the command /start is issued."""
