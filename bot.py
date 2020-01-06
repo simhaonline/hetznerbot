@@ -3,7 +3,6 @@
 from uuid import uuid4
 from telegram.ext import Updater, InlineQueryHandler, CommandHandler
 from telegram.utils.helpers import escape_markdown
-import paho.mqtt.client as mqtt
 import json
 import logging
 import os
