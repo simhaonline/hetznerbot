@@ -34,7 +34,7 @@ def get_networks(update, context):
 
 def get_backups(update, context):
     """ Send a list of all backups """
-    update.message.reply_text('Servers:')
+    update.message.reply_text('Backup:')
 
 def start(update, context):
     """Send a message when the command /start is issued."""
